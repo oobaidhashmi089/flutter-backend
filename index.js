@@ -21,7 +21,7 @@ mongoose.connect(DB).then(()=>
 }).catch((e)=>{console.log(e)});
 
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
      
     res.send('hello world')
  
